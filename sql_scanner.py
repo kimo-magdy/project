@@ -4,7 +4,7 @@ from colorama import Fore, init
 init(autoreset=True)
 
 TARGET_URL = "http://localhost/vulnerabilities/sqli/"
-COOKIES = {"PHPSESSID": "YOUR_SESSION_ID", "security": "low"}
+COOKIES = {"PHPSESSID": "u43qamd6cum072bk0ete5gvln2", "security": "low"}
 
 PAYLOADS = [
     "' OR '1'='1",
